@@ -12,12 +12,12 @@
     <script type="text/javascript" src="js/roguelikeview.js"></script>
     <script type="text/javascript" src="js/roguelikecontroller.js"></script>
     <script type="text/javascript" src="js/simplefightmap.js"></script>
-	<script type="text/javascript" src="js/generatingmap.js"></script>
+	<script type="text/javascript" src="js/cavemap.js"></script>
 </head>
 <body></body>
 <script>
     $(window).load(function () {
-        var map = new SimpleFightMap();
+        var map = new CaveMap();
         map.generate();
 
         var view = new RoguelikeView();
